@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.outerDiv{
+    height: 100vh;
+    width: 100vw;
+    background-color: #bdbdbd;
+}
+
+.calculatorBody{
+    min-width: 300px;
+    max-height: 200px;
+}
+
+.output{
+    width:225px;
+    height: 50px;
+    display:flex;
+    padding: 10px;
+    background-color: white;
+    /* justify-content: end; */
+    align-items: center;
+    font-weight: 600;
+}
+
+.calcButton{
+    width: 75px;
+    height: 50px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.calcButton:hover{
+    border: 3px solid white;
+    box-sizing: 2px 2px 2px 2px white;
+}
+
+.numButtons{
+    background-color: #212121;
+}
+
+.funcButtons{
+    background-color: #757575;
+}
